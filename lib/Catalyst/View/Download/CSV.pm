@@ -1,8 +1,9 @@
 package Catalyst::View::Download::CSV;
 
-use strict;
-use warnings;
-use base qw( Catalyst::View );
+use Moose;
+use namespace::autoclean;
+
+extends 'Catalyst::View';
 
 use Catalyst::Exception;
 use Text::CSV;
@@ -77,7 +78,10 @@ sub render {
     return $content;
 }
 
+__PACKAGE__->meta->make_immutable;
+
 1;
+
 __END__
 
 =head1 SYNOPSIS

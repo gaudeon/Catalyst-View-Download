@@ -5,6 +5,7 @@ Revision history for Catalyst::View::Download
         * Cleaned / Updated pod.
         * Added support for App based modules. e.g MyApp::View::Download::PDF
         * Changed outfile to be outfile_ext in config. outfile_name is available to set in stash or uses current action, stringified, as name.
+        * Everything now using Moose...
 
 0.07    November 2, 2011
         * Now using Moose...

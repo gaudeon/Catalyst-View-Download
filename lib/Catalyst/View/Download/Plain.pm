@@ -1,8 +1,9 @@
 package Catalyst::View::Download::Plain;
 
-use strict;
-use warnings;
-use base qw( Catalyst::View );
+use Moose;
+use namespace::autoclean;
+
+extends 'Catalyst::View';
 
 =head1 NAME
 
@@ -40,7 +41,10 @@ sub render {
     return $content;
 }
 
+__PACKAGE__->meta->make_immutable;
+
 1;
+
 __END__
 
 =head1 SYNOPSIS
