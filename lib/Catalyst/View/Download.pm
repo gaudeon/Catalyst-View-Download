@@ -11,11 +11,11 @@ Catalyst::View::Download
 
 =head1 VERSION
 
-0.08
+0.09
 
 =cut
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 $VERSION = eval $VERSION;
 
 __PACKAGE__->config(

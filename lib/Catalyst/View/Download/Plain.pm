@@ -11,11 +11,12 @@ Catalyst::View::Download::Plain
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
 
-our $VERSION = "0.04";
+our $VERSION = "0.05";
+$VERSION = eval $VERSION;
 
 __PACKAGE__->config( 'stash_key' => 'plain' );
 

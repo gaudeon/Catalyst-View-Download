@@ -1,11 +1,14 @@
 Revision history for Catalyst::View::Download
 
+0.09    June 13, 2013
+        * Cleaned / Updated pod.
+        * Everything, except helper, now using Moose...
+
 0.08    June 11, 2013
         * Finally added a Helper, yay! 
         * Cleaned / Updated pod.
         * Added support for App based modules. e.g MyApp::View::Download::PDF
         * Changed outfile to be outfile_ext in config. outfile_name is available to set in stash or uses current action, stringified, as name.
-        * Everything now using Moose...
 
 0.07    November 2, 2011
         * Now using Moose...

@@ -13,11 +13,12 @@ Catalyst::View::Download::XML
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
+$VERSION = eval $VERSION;
 
 __PACKAGE__->config( 'stash_key' => 'xml' );
 
