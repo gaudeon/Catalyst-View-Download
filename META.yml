@@ -1,7 +1,7 @@
 ---
 abstract: ~
 author:
-  - 'Travis Chase, C<< <gaudeon at cpan.org> >>'
+  - 'Travis Chase, C<< <gaudeon@cpan.org> >>'
 build_requires:
   Catalyst::Runtime: 0
   Catalyst::View: 0
